@@ -7,13 +7,42 @@ public class Decimal {
 	}
 
 	public void decToBin() {
+		inputDec();
+		toBin();
+		outBin();
+	}
+	
+	public void decToHex() {
+		inputDec();
+		toHex();
+		outHex();
+	}
+	
+	private void outHex() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	public void decToHex() {
+	private void toHex() {
 		// TODO Auto-generated method stub
 		
 	}
+
+	private void outBin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void toBin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void inputDec() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 
 }
