@@ -34,7 +34,7 @@ public class Decimal {
 
 	private void toHex() {
 		char[] numbers = input.toCharArray();
-
+		
 	}
 
 	private void outBin() {
