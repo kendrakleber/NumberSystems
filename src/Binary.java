@@ -1,23 +1,36 @@
-package src;
+
+
 import java.io.PrintWriter;
 
-public class Hexadecimal {
+public class Binary {
 
-	public Hexadecimal(PrintWriter pw) {
+	public Binary(PrintWriter pw) {
 		// TODO Auto-generated constructor stub
+		
 	}
 
-	public void hexToDec() {
-		inputHex();
+	public void binToDec() {
+		inputBin();
 		toDec();
 		outDec();
 	}
-	public void hexToBin() {
-		inputHex();
-		toBin();
-		outBin();
-	}
 	
+	public void binToHex() {
+		inputBin();
+		toHex();
+		outHex();
+		
+	}
+	private void outHex() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void toHex() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	private void outDec() {
 		// TODO Auto-generated method stub
 		
@@ -28,21 +41,11 @@ public class Hexadecimal {
 		
 	}
 
-	private void inputHex() {
+	private void inputBin() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	
-
-	private void outBin() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private void toBin() {
-		// TODO Auto-generated method stub
-		
-	}
 
 }
