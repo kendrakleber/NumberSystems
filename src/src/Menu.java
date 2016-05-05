@@ -1,3 +1,4 @@
+package src;
 import java.io.PrintWriter;
 
 public class Menu {
@@ -7,7 +8,7 @@ public class Menu {
 	}
 
 	public void display() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
