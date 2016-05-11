@@ -27,17 +27,30 @@ public class Decimal {
 	}
 
 	private void outHex() {
-		// TODO Auto-generated method stub
+
+		JOptionPane.showMessageDialog(null, "Your Awnser Is: " + output.toString());
+
 
 	}
 
 	private void toHex() {
+
+		boolean let = false;
+		int letn;
 		char[] numbers = input.toCharArray();
 		for (int i=0;i<numbers.length;i++) {
 			if (Integer.parseInt(""+numbers[i]) > 6) {
 				output.append(numbers[i]);
 			} else if(Integer.parseInt(""+numbers[i]) != 1 && Integer.parseInt(""+numbers[i+1]) != 1){
 				output.append(numbers[i]);
+			} else if (Integer.parseInt(""+numbers[i]) != 1 && Integer.parseInt(""+numbers[i+1]) == 1) {
+				let = true;
+				letn = Integer.parseInt(""+numbers[i]);
+			} else  if (let){
+				let = false;
+				int ccode = (numbers[i-1]-48)+65;
+				output.append((char) ccode);
+
 			}
 		}
 	}

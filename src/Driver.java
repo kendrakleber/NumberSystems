@@ -1,13 +1,11 @@
-
-<<<<<<< HEAD
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-=======
+
 
 
 import java.io.*;
->>>>>>> b7932eb4e3b7f880dfa03e89eb6d88fa0a2fc8fe
+
 
 public class Driver {
 	public static void main(String[] args) throws IOException{
